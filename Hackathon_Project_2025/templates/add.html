@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Scammer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #f0f0f5;">
+
+<div class="container mt-5">
+    <a href="/" class="btn btn-secondary mb-4">🏠 Back to Home</a>
+
+    <div class="card shadow p-4">
+        <h2 class="text-center text-success mb-4">➕ Add New Scammer</h2>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+              <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        <form method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label">Scammer Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Enter scammer's name" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Voice ID</label>
+                <input type="text" name="voice_id" class="form-control" placeholder="Enter unique voice ID" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Upload Audio File</label>
+                <input type="file" name="audio" class="form-control" accept=".mp3,.wav" required>
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">Save Scammer ➡️</button>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
