@@ -1,4 +1,5 @@
 EchoSafe: AI-Powered Scam Voiceprint Detection Platform
+
 🔒 Protecting financial institutions and their customers from voice-based fraud in real time.
 
 🚀 Project Overview
