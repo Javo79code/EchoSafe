@@ -1,14 +1,3 @@
-# **Echo Safe: AI Scam Voiceprint Database**  
-
-## 🚀 Project Overview  
-- During Spring 2025 St. John's Hackathon, we built an AI system that helps banks detect scam phone calls.
-- It listens to voice recordings, creates a special fingerprint for each voice, and checks if it matches known scammers.
-- If it finds a match, it alerts the bank right away to prevent fraud.
-## 🤝 Team
-- [Javokhir Akhmadjonov](https://github.com/Javo79code)
-- [Fahmid Zaman](https://github.com/Fahmid1952)
-- [Lukas Lozada Perez](https://github.com/neonforestmist)
-- [Juan Jara](https://github.com/JuanMJara)
 EchoSafe: AI-Powered Scam Voiceprint Detection Platform
 🔒 Protecting financial institutions and their customers from voice-based fraud in real time.
 
@@ -50,12 +39,10 @@ Delivered a working MVP in under 48 hours.
 
 👥 Team Members
 - [Javokhir Akhmadjonov](https://github.com/Javo79code)
-- 
 - [Fahmid Zaman](https://github.com/Fahmid1952)
-- 
 - [Lukas Lozada Perez](https://github.com/neonforestmist)
-- 
 - [Juan Jara](https://github.com/JuanMJara)
+
 
 📌 Installation
 # Clone the repository
