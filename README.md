@@ -32,6 +32,8 @@ File Handling: Secure .mp3/.wav processing with validation
 Deployment: Localhost (Hackathon build), future cloud deployment planned
 
 
+
+
 🏆 Hackathon Achievement
 Placed 1st out of 25+ teams at the Spring 2025 SJU ACM x Headstarter Hackathon.
 
